@@ -64,10 +64,6 @@ public class forgotPasswordPage extends BaseVuse {
 	}
 
 
-	public void click_i_am_above_year_button1(int i) {
-		// TODO Auto-generated method stub
-		
-	}
 
 }
 	

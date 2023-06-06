@@ -10,7 +10,7 @@ public class forgotPasswordStep {
 		forgotPass.click_on_the_accept_all_cookies_button();
 		
 		}
-	@Given("click i am above {int} year button for forgot passwords")
+	@Given("click i am above {int} year button for forgot password")
 	public void click_i_am_above_year_button1(Integer age) throws InterruptedException {
 		
 		forgotPass.click_i_am_above_year_button(18);
