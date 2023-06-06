@@ -26,8 +26,9 @@ public class PlpAddToCartpage extends BaseVuse {
 		
 	    
 	}
+	
 	public void verify_that_cart_is_empty_or_not() {
-		isProductAvailableInCart();
+		
 	}
 
 	public void search_product() {

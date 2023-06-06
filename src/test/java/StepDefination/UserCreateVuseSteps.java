@@ -1,4 +1,6 @@
 package StepDefination;
+
+
 import Page.UserCreateVusePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,7 +9,7 @@ public class UserCreateVuseSteps {
 	UserCreateVusePage userCreate=new UserCreateVusePage();
 	@Given("click on the accept all cookies button for register page")
 	public void click_on_the_accept_all_cookies_button() throws InterruptedException {
-		userCreate.click_on_the_accept_all_cookies_button();
+	 userCreate.click_on_the_accept_all_cookies_button();
 		
 	   
 	}

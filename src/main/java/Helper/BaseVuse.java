@@ -149,7 +149,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			    return cartProducts.size() > €0.00;
 			}*/
 		 public boolean isProductAvailableInCart() {
-			    List<WebElement> cartProducts = driver.findElements(By.xpath("//a[@class='action delete remove-item-from-cart']//font[contains(text(),'clear"));
+			    List<WebElement> cartProducts = driver.findElements(By.xpath("(//button[@class='cartTrigger-trigger-3Ke cartTrigger-trigger-2w8 clickable-root-2gB']//span)[2]"));
 			    return !cartProducts.isEmpty();
 			}
 		    }
