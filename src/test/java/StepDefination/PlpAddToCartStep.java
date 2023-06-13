@@ -1,12 +1,10 @@
 package StepDefination;
-
-import Helper.BaseVuse;
 import Page.PlpAddToCartpage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class PlpAddToCartStep extends BaseVuse{
+public class PlpAddToCartStep {
 	PlpAddToCartpage addcart=new PlpAddToCartpage();
 	@Given("click on the accept all cookies button for plp add to cart page")
 	public void click_on_the_accept_all_cookies_button() throws InterruptedException {
