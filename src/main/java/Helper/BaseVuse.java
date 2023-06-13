@@ -21,6 +21,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -43,6 +46,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 					e.printStackTrace(); 
 				}
 			}
+		 @Before
 		 public void setup() {
 				
 				String Browsername=prop.getProperty("Browser");
@@ -79,7 +83,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			
 			
 		
-		
+		@After
 		 public void GetFailedStepScreenshot(Scenario s) {
 			 if(s.isFailed()) {
 			getScreenShot1();	 
